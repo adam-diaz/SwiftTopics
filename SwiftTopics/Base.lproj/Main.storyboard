@@ -26,6 +26,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vRY-DY-UdO" kind="show" id="WSU-52-h5a"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -47,6 +50,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
+        </scene>
+        <!--Topic-->
+        <scene sceneID="PVB-7z-PRP">
+            <objects>
+                <viewController id="vRY-DY-UdO" customClass="DetailViewController" customModule="SwiftTopics" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0vL-dT-4wB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="UtY-mO-2q9"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Topic" id="Zcc-bm-uxs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ejV-hg-K0Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1939" y="127"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ufM-DH-XDm">

@@ -13,6 +13,7 @@
 		506C11F3237B03EB0006C838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506C11F1237B03EB0006C838 /* Main.storyboard */; };
 		506C11F5237B03EC0006C838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506C11F4237B03EC0006C838 /* Assets.xcassets */; };
 		506C11F8237B03EC0006C838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506C11F6237B03EC0006C838 /* LaunchScreen.storyboard */; };
+		50D31248237EFAA80010C71E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D31247237EFAA80010C71E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		506C11F4237B03EC0006C838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506C11F7237B03EC0006C838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		506C11F9237B03EC0006C838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D31247237EFAA80010C71E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				506C11ED237B03EB0006C838 /* SceneDelegate.swift */,
 				506C11EF237B03EB0006C838 /* ViewController.swift */,
 				506C11F1237B03EB0006C838 /* Main.storyboard */,
+				50D31247237EFAA80010C71E /* DetailViewController.swift */,
 				506C11F4237B03EC0006C838 /* Assets.xcassets */,
 				506C11F6237B03EC0006C838 /* LaunchScreen.storyboard */,
 				506C11F9237B03EC0006C838 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D31248237EFAA80010C71E /* DetailViewController.swift in Sources */,
 				506C11F0237B03EB0006C838 /* ViewController.swift in Sources */,
 				506C11EC237B03EB0006C838 /* AppDelegate.swift in Sources */,
 				506C11EE237B03EB0006C838 /* SceneDelegate.swift in Sources */,

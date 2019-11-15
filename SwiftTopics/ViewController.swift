@@ -27,7 +27,17 @@ class ViewController: UIViewController {
         tableView.dataSource = self
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        print("prepare(for segue: )")
+        
+        guard let detailViewController = segue.destination as? DetailViewController, let indexPath = tableView.indexPathForSelectedRow else {
+            return
+        }
+        
+        detailViewController.navigationItem.title =  swiftTopics[indexPath.row]
+    }
+    
+    
 }
 
 extension ViewController: UITableViewDataSource {
